@@ -1,0 +1,2196 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from rstheme.com/products/html/news24/news-magazine/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Sep 2025 02:40:31 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darpan | Home</title>
+    <link rel="apple-touch-icon" href="https://rstheme.com/">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- hover-min css -->
+    <link rel="stylesheet" href="css/hover-min.css">
+    <!-- magnific-popup css -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- lightbox css -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <!-- nivo slider CSS -->
+    <link rel="stylesheet" href="inc/custom-slider/css/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="inc/custom-slider/css/preview.css" type="text/css" media="screen" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- modernizr js -->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <style>
+        .news-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .news-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .news-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.4));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .news-card:hover .news-overlay {
+            opacity: 1;
+        }
+        
+        .news-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transform: translateY(20px);
+            transition: transform 0.4s ease 0.1s;
+        }
+        
+        .news-description {
+            font-size: 0.95rem;
+            line-height: 1.4;
+            transform: translateY(20px);
+            transition: transform 0.4s ease 0.2s;
+        }
+        
+        .news-card:hover .news-title,
+        .news-card:hover .news-description {
+            transform: translateY(0);
+        }
+        
+        .card-img-top {
+            transition: transform 0.4s ease;
+        }
+        
+        .news-card:hover .card-img-top {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body class="home">
+    <!--Preloader area Start here-->
+    <div class="preloader">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    <!--Preloader area end here-->
+
+    <!--Header area start here-->
+    <header>
+        <div>
+            <div class="trending-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <span class="trending-label">Trending</span>
+                        </div>
+                        <div class="col-auto px-0 px-md-auto">
+                            <button class="trending-arrow trending-prev" onclick="previousTrending()">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                        </div>
+                        <div class="col-auto">
+                            <button class="trending-arrow trending-next" onclick="nextTrending()">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <div class="trending-slider">
+                                <div class="trending-content">
+                                    <span class="trending-item active">विधायक निर्मला सप्रे ने मेधावी छात्रों और शिक्षकों को दिया सम्मान, 19 लाख की राशि वितरित</span>
+                                    <span class="trending-item">श्री नामिन्दन दिगम्बर संस्कृत महाविद्यालय में आयोजित हुआ वार्षिक उत्सव</span>
+                                    <span class="trending-item">स्थानीय समुदाय के लिए नई योजनाओं की घोषणा</span>
+                                    <span class="trending-item">शिक्षा मंत्री ने किया नए विद्यालयों का उद्घाटन</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row align-items-center py-3 d-block d-md-none">
+
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <!-- Desktop Categories -->
+                            <div  class="categories-desktop d-inline-flex flex-wrap px-2">
+                                <a href="#" class="category-link">राजनीति</a>
+                                <a href="#" class="category-link">व्यापार</a>
+                                <a href="#" class="category-link">तकनीकी</a>
+                                <a href="#" class="category-link">मनोरंजन</a>
+                                <a href="#" class="category-link">खेल-कूद</a>
+                                <a href="#" class="category-link">जॉब्स</a>
+                                <a href="#" class="category-link">शिक्षा</a>
+                                <a href="#" class="category-link">स्वास्थ्य</a>
+                                <a href="#" class="category-link">धर्म एवं ज्योतिष</a>
+                                <a href="#" class="category-link">देश-विदेश</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+            <!-- Main Header -->
+            <!-- <header class="main-header">
+                <div class="container-fluid">
+                    
+                    <div class="row align-items-center py-3">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="logo">
+                                
+                                <h1>VICHAR<span class="text-danger">MEDIA</span>24</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-6">
+                            
+                            <div  class="categories-desktop d-none d-md-flex justify-content-end flex-wrap">
+                                <a href="#" class="category-link">राजनीति</a>
+                                <a href="#" class="category-link">व्यापार</a>
+                                <a href="#" class="category-link">तकनीकी</a>
+                                <a href="#" class="category-link">मनोरंजन</a>
+                                <a href="#" class="category-link">खेल-कूद</a>
+                                <a href="#" class="category-link">जॉब्स</a>
+                                <a href="#" class="category-link">शिक्षा</a>
+                                <a href="#" class="category-link">स्वास्थ्य</a>
+                                <a href="#" class="category-link">धर्म एवं ज्योतिष</a>
+                                <a href="#" class="category-link">देश-विदेश</a>
+                            </div>
+                            
+                            
+                            
+                            <div class="d-block d-md-none justify-content-end" >
+                                <p class="d-flex justify-content-end align-content-center mb-0 gap-1">
+                                
+                                <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                                <div class="px-2 py-3">
+                                    
+                                    <div  class="d-grid">
+                                        <a href="#" class="category-link">राजनीति</a>
+                                        <a href="#" class="category-link">व्यापार</a>
+                                        <a href="#" class="category-link">तकनीकी</a>
+                                        <a href="#" class="category-link">मनोरंजन</a>
+                                        <a href="#" class="category-link">खेल-कूद</a>
+                                        <a href="#" class="category-link">जॉब्स</a>
+                                        <a href="#" class="category-link">शिक्षा</a>
+                                        <a href="#" class="category-link">स्वास्थ्य</a>
+                                        <a href="#" class="category-link">धर्म एवं ज्योतिष</a>
+                                        <a href="#" class="category-link">देश-विदेश</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </header> -->
+
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg main-nav">
+                <div class="container-fluid">
+                    <!-- Desktop Navigation -->
+                    <div class="navbar-nav d-none d-lg-flex w-100 nav-edits-color">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">News-Update</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                    
+                    <!-- Desktop Search -->
+                    <div class="search-box d-none d-lg-flex">
+                        <div class="input-group input-border-css">
+                            <input type="text" class="form-control rounded-0 h-auto" placeholder="Keyword">
+                            <button class="btn btn-secondary rounded-0" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </nav>
+
+            
+        </div>
+
+        <div class="header-bottom-area" id="sticky">
+            <div class="container mx-0 px-2">
+                <div class="row ">
+                    
+                    <div class="col-lg-2 col-md-2 col-sm-hidden col-xs-hidden text-right search hidden-mobile">
+                        <a href="#search" data-toggle="collapse" class="search-icon"><i class="fa fa-search"
+                                aria-hidden="true"></i></a>
+                        <div id="search" class="collapse search-box">
+                            <input type="text" class="form-control" placeholder="खोजें...">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 ">
+                        <div class="bg-white navbar-header d-flex d-lg-block align-items-center">
+                            <div style="text-align: left !important;" class="col-sm-2 col-xs-2 hidden-desktop text-left search">
+                                <a style="text-align: left !important;" href="#search-mobile" data-toggle="collapse" class="search-icon text-left"><i
+                                        class="fa fa-search mt-0" aria-hidden="true"></i></a>
+                                <div id="search-mobile" class="collapse search-box">
+                                    <input type="text" class="form-control" placeholder="खोजें...">
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-xs-8 hidden-desktop text-center search">
+                                <a  href="index.html"  class="text-center">
+                                    <div class="logo">
+                                        <!-- <h1>BCC<span class="text-danger">24</span>NEWS</h1> -->
+<<<<<<< HEAD
+                                        <h1 class="" >VICHAR<span class="text-danger">MEDIA</span>24</h1>
+=======
+                                        <h1 class="" >VICHAR <span class="text-danger">MEDIA</span>24</h1>
+>>>>>>> 06ecf83 (update header)
+                                    </div>
+                                </a>
+                                <div id="search-mobile" class="collapse search-box">
+                                    <input type="text" class="form-control" placeholder="खोजें...">
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-2 padding-null">
+
+                                <button class="navbar-toggle float-end btn btn-danger d-block d-lg-none " type="button" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <!-- <span class="sr-only">नेविगेशन बदलें</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span> -->
+                                    <i class="fas fa-bars"></i>
+                                </button>
+
+                                
+                            </div>
+                        </div>
+                        <div class="main-menu navbar-collapse collapse new-for768">
+                            <nav class="mx-3 mx-md-4 mx-lg-auto new-for768-inside-NAV " >
+                                <ul>
+                                    <li><a href="" class="has dropdown-toggle">होम <i
+                                                class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="index.html">होम 1</a></li>
+                                            <li><a href="index2.html">होम 2</a></li>
+                                            <li><a href="index3.html">होम 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="has">मेगा मेन्यू <i class="fa fa-chevron-down"
+                                                aria-hidden="true"></i></a>
+                                        <ul class="sub-menu mega">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <a href="blog-single.html"><img src="images/category/1.jpg"
+                                                                alt=""></a>
+                                                        <h3><a href="blog-single.html">छुट्टी के पैसे: खरीदने की अंतिम
+                                                                गाइड</a></h3>
+                                                        <p>नुल्ला उल्लमकोरपर ऑरसी मेटस, यू इम्पेरडिएट क्वाम इस अ डापिबस
+                                                            अक...</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <a href="blog-single.html"><img src="images/category/2.jpg"
+                                                                alt=""></a>
+                                                        <h3><a href="blog-single.html">वह प्रदर्शनी जिसे बैंक नहीं चाहता
+                                                                कि आप देखें</a></h3>
+                                                        <p>नुल्ला उल्लमकोरपर ऑरसी मेटस, यू इम्पेरडिएट क्वाम इस अ डापिबस
+                                                            अक...</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <a href="blog-single.html"><img src="images/category/5.jpg"
+                                                                alt=""></a>
+                                                        <h3><a href="blog-single.html">बूम और बस्ट को खत्म कैसे करें:
+                                                                नकद को अवैध बनाएं</a></h3>
+                                                        <p>नुल्ला उल्लमकोरपर ऑरसी मेटस, यू इम्पेरडिएट क्वाम इस अ डापिबस
+                                                            अक...</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                        <a href="blog-single.html"><img src="images/category/4.jpg"
+                                                                alt=""></a>
+                                                        <h3><a href="blog-single.html">क्विज़: टर्नर पुरस्कार नामांकित
+                                                                या बेकार चीज़?</a></h3>
+                                                        <p>नुल्ला उल्लमकोरपर ऑरसी मेटस, यू इम्पेरडिएट क्वाम इस अ डापिबस
+                                                            अक...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="has">पेजेज़ <i class="fa fa-chevron-down"
+                                                aria-hidden="true"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html">हमारे बारे में</a></li>
+                                            <li class="has"><a href="#">ब्लॉग <i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></a>
+                                                <ul>
+                                                    <li><a href="blog.html">ब्लॉग</a></li>
+                                                    <li><a href="blog-single.html">ब्लॉग सिंगल</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">श्रेणी <i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></a>
+                                                <ul>
+                                                    <li><a href="category-style1.html">श्रेणी शैली 1</a></li>
+                                                    <li><a href="category-style2.html">श्रेणी शैली 2</a></li>
+                                                    <li><a href="category-style3.html">श्रेणी शैली 3</a></li>
+                                                    <li><a href="category-style4.html">श्रेणी शैली 4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">गैलरी <i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></a>
+                                                <ul>
+                                                    <li><a href="gallery.html">गैलरी एक</a></li>
+                                                    <li><a href="gallery2.html">गैलरी दो</a></li>
+                                                    <li><a href="gallery-single.html">गैलरी सिंगल</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">लेखक <i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></a>
+                                                <ul>
+                                                    <li><a href="author.html">लेखक</a></li>
+                                                    <li><a href="author-single.html">लेखक सिंगल</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="testimonial.html">प्रशंसापत्र</a></li>
+                                            <li><a href="account.html">खाता</a></li>
+                                            <li><a href="contact.html">संपर्क करें</a></li>
+                                            <li><a href="error-404.html">त्रुटि-404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="category.html">व्यवसाय</a></li>
+                                    <li><a href="category-world.html">दुनिया</a></li>
+                                    <li><a href="category-fashion.html">फैशन</a></li>
+                                    <li><a href="category-politics.html">राजनीति</a></li>
+                                    <li><a href="category-sports.html">खेल</a></li>
+                                    <li><a href="category-health.html">स्वास्थ्य</a></li>
+                                    <li><a href="category-science.html">विज्ञान</a></li>
+                                    <li><a href="category-videos.html">वीडियो</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Header area end here-->
+    <!-- Slider Section Start Here -->
+    <div class="container">
+        <div class="row mt-md-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-0 d-lg-block">
+                <div class="wrapper">
+                    <!-- News Slider -->
+                    <div class="ticker marg-botm">
+                        <div class="ticker-wrap row">
+                            <!-- News Slider Title -->
+                            <div class="ticker-head up-case backg-colr col-md-2">Breaking News<i
+                                    class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="tickers col-md-10 align-content-md-center">
+                                <div id="top-news-slider" class="owl-carousel ">
+                                    <div class="item">
+                                        <a href="blog-single.html"> <img src="images/breaking/1.jpg" alt="news image">
+                                            <span>प्रवासियों से कहा गया: फ्रांस में रहें </span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"><img src="images/breaking/2.jpg" alt="news image">
+                                            <span>डुओ स्क्रिप्टा एन द प्रीयरमॉड</span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"><img src="images/breaking/3.jpg" alt="news image">
+                                            <span>दो हारे हुए इडाहो ड्रग तस्कर </span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"><img src="images/breaking/4.jpg" alt="news image">
+                                            <span>कार रेसर ने बीच इवेंट में खुद को चुनौती दी</span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"><img src="images/breaking/5.jpg" alt="news image">
+                                            <span>आरोन रॉजर्स ने आलोचना की </span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"> <img src="images/breaking/1.jpg" alt="news image">
+                                            <span>डेट्रॉइट निवासी सतर्क और सुधार की ओर</span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="blog-single.html"><img src="images/breaking/4.jpg" alt="news image">
+                                            <span>एफबीआई से नाराज़ क्लिंटन अभियान</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End News Slider -->
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 padding-0">
+                <div class="slider-area">
+                    <div class="bend niceties preview-2">
+                        <div id="ensign-nivoslider" class="slides">
+                            <img src="images/slider/slide_1.jpg" alt="" title="#slider-direction-1" />
+                            <img src="images/slider/slide_3.jpg" alt="" title="#slider-direction-2" />
+                        </div>
+                        <!-- direction 1 -->
+                        <div id="slider-direction-1" class="slider-direction">
+                            <div class="slider-content t-cn s-tb slider-1">
+                                <div class="title-container s-tb-c">
+                                    <div class="slider-botton">
+                                        <ul>
+                                            <li>
+                                                <a class="cat-link" href="category.html">व्यवसाय</a>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>28 नवम्बर,
+                                                    2017
+                                                </span>
+                                                <span class="comment">
+                                                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                                    </a>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h1 class="title1"><a href="blog.html"><span>रिकॉर्ड</span> महिलाओं का
+                                            अनुपात<br />डिग्रियों पर</a></h1>
+                                    <div class="title2">वह प्रदर्शनी जिसे बैंक्सी नहीं चाहता कि आप यात्रा के दौरान
+                                        देखें।</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- direction 2 -->
+                        <div id="slider-direction-2" class="slider-direction">
+                            <div class="slider-content t-cn s-tb slider-2">
+                                <div class="title-container s-tb-c">
+                                    <div class="slider-botton">
+                                        <ul>
+                                            <li>
+                                                <a class="cat-link" href="category-world.html">दुनिया</a>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>28 नवम्बर,
+                                                    2017
+                                                </span>
+                                                <span class="comment">
+                                                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                                    </a>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h1 class="title1"><a href="blog.html"><span>जॉन</span> निदेशक पद से सेवानिवृत्त</a>
+                                    </h1>
+                                    <div class="title2">वह प्रदर्शनी जिसे बैंक्सी नहीं चाहता कि आप यात्रा के दौरान
+                                        देखें।</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Area End Here-->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 paddimg-left-none">
+                <div class="slider-right">
+                    <ul>
+                        <li>
+                            <div class="right-content">
+                                <span class="category"><a class="cat-link" href="blog.html">व्यवसाय</a></span>
+                                <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"> </i> 28 जून,
+                                    2017</span>
+                                <h3><a href="blog-single.html">ट्रूडो को शरणार्थियों की ओर धकेला गया।</a></h3>
+                            </div>
+                            <div class="right-image"><a href="blog-single.html"><img src="images/sidebar-images/1.jpg"
+                                        alt="sidebar image"></a></div>
+                        </li>
+                        <li>
+                            <div class="right-content">
+                                <span class="category"><a class="cat-link" href="blog.html">स्वास्थ्य</a></span>
+                                <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"> </i>28 जून,
+                                    2017</span>
+                                <h3><a href="blog-single.html">वह प्रदर्शनी बैंक्सी</a></h3>
+                            </div>
+                            <div class="right-image"><a href="blog-single.html"><img src="images/sidebar-images/2.jpg"
+                                        alt="sidebar image"></a></div>
+                        </li>
+                        <li>
+                            <div class="right-content">
+                                <span class="category"><a class="cat-link" href="blog.html">विज्ञान</a></span>
+                                <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"> </i> 28 जून,
+                                    2017</span>
+                                <h3><a href="blog-single.html">हरिकेन हार्वे: निकासी।</a></h3>
+                            </div>
+                            <div class="right-image"><a href="blog-single.html"><img src="images/sidebar-images/3.jpg"
+                                        alt="sidebar image"></a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider Section end Here -->
+    <!-- All News Section Start Here -->
+    <div class="all-news-area">
+        <div class="container">
+            <!-- latest news Start Here -->
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 tab-home">
+                    <div class="row align-items-center justify-content-center py-3 d-md-none">
+                        <div class="col-lg-3 col-md-4 col-12 mt-5 text-center">
+                            <div class="logo">
+<<<<<<< HEAD
+                                <h1>VICHAR<span class="text-danger">MEDIA</span>24</h1>
+=======
+                                <h1>VICHAR <span class="text-danger">MEDIA</span>24</h1>
+>>>>>>> 06ecf83 (update header)
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs mt-1 justify-content-between justify-content-md-start">
+                        <li class="title-bg d-none d-md-block">Vichar Media 24</li>
+                        
+<<<<<<< HEAD
+                        <li class="active"><a data-toggle="tab" href="#tab1">सर्वश्रेष्ठ रेटिंग</a></li>
+                        <li><a data-toggle="tab" href="#tab2">सप्ताह</a></li>
+                        <li><a data-toggle="tab" href="#tab3">लोकप्रिय लेख</a></li>
+                        <li><a data-toggle="tab" href="#tab4">पिछले</a></li>
+=======
+                        <!-- <li class="active"><a data-toggle="tab" href="#tab1">सर्वश्रेष्ठ रेटिंग</a></li> -->
+                        <!-- <li><a data-toggle="tab" href="#tab2">सप्ताह</a></li> -->
+                        <!-- <li><a data-toggle="tab" href="#tab3">लोकप्रिय लेख</a></li> -->
+                        <li class="ms-auto ms-md-4"><a data-toggle="tab" href="#tab3">लेख</a></li>
+                        <!-- <li><a data-toggle="tab" href="#tab4">पिछले</a></li> -->
+>>>>>>> 06ecf83 (update header)
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab1" class="tab-pane fade in active">
+
+                            <div class="tab-top-content">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddimg-right-none">
+                                        <a href="blog-single.html"><img src="images/tab/1.jpg" alt="sidebar image"></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 last-col">
+                                        <span class="date"><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                                james Bond </a></span> <span class="comment"><a href="#"><i
+                                                    class="fa fa-comment-o" aria-hidden="true"></i> 50</a></span>
+                                        <h3><a href="#">प्रवासी लोगों को बताया गया: फ्रांस में रहें या अपने देश वापस
+                                                जाएं</a></h3>
+                                        <p>लोरेम इप्सम डोलर सिट एमेट, कॉनसेक्टेचर एडिपिसिंग elit. नंक nisl risus,
+                                            ट्रिस्टिके डायम id, ब्लैंडिट कंडिमेंटम।</p>
+                                        <a href="blog-single.html" class="read-more hvr-bounce-to-right">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-bottom-content">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true">
+                                                </i>June 28, 2017</span>
+                                            <h4><a href="blog-single.html">फुटबॉल मैदान बंद हुआ।</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true">
+                                                </i>June 28, 2017</span>
+                                            <h4><a href="blog-single.html">फुटबॉल मैदान बंद हुआ।</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/4.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true">
+                                                </i>June 28, 2017</span>
+                                            <h4><a href="blog-single.html">फुटबॉल मैदान बंद हुआ।</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/5.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true">
+                                                </i>June 28, 2017</span>
+                                            <h4><a href="blog-single.html">फुटबॉल मैदान बंद हुआ।</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div id="tab2" class="tab-pane fade">
+                            <div class="tab-top-content">
+                                0000
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddimg-right-none">
+                                        <a href="blog-single.html"><img src="images/tab/7.jpg" alt="sidebar image"></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 last-col">
+                                        <span class="date"><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                                james Bond </a></span> <span class="comment"><a href="#"><i
+                                                    class="fa fa-comment-o" aria-hidden="true"></i> 50</a></span>
+                                        <h3><a href="#">प्रवासियों से कहा गया: फ्रांस में रहें या अपने देश लौट जाएं</a>
+                                        </h3>
+                                        <p>लोरेम इप्सम डोलर सिट एमेट, कॉनसेक्टेचर एडिपिसिंग एलीट। नंक निस्ल रिसस,
+                                            ट्रिस्टिके डायम आईडी, ब्लैंडिट कंडिमेंटम।</p>
+                                        <a href="blog-single.html" class="read-more hvr-bounce-to-right">READ MORE</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="tab-bottom-content">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                June 28, 2017</span>
+                                            <h4><a href="blog-single.html">एसआईएस ने जबरदस्त लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                June 28, 2017</span>
+                                            <h4><a href="blog-single.html">एसआईएस ने जबरदस्त लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                June 28, 2017</span>
+                                            <h4><a href="blog-single.html">एसआईएस ने जबरदस्त लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/5.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                June 28, 2017</span>
+                                            <h4><a href="blog-single.html">एसआईएस ने जबरदस्त लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div id="tab3" class="tab-pane fade">
+                            <div class="tab-top-content">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddimg-right-none">
+                                        <a href="blog-single.html"><img src="images/tab/8.jpg" alt="sidebar image"></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 last-col">
+                                        <span class="date"><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                                जेम्स बॉन्ड </a></span>
+                                        <span class="comment"><a href="#"><i class="fa fa-comment-o"
+                                                    aria-hidden="true"></i> 50</a></span>
+
+                                        <h3><a href="#">प्रवासियों को बताया गया: फ्रांस में रहो या अपने देश लौट जाओ</a>
+                                        </h3>
+                                        <p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटर एडिपिसिंग एलिट। नंक nisl risus,
+                                            tristique diam id, blandit condimentum</p>
+
+                                        <a href="#" class="read-more hvr-bounce-to-right">और पढ़ें</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-bottom-content">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="tab4" class="tab-pane fade">
+                            <div class="tab-top-content">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddimg-right-none">
+                                        <a href="blog-single.html"><img src="images/tab/1.jpg" alt="sidebar image"></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 last-col">
+                                        <span class="date"><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                                जेम्स बॉन्ड </a></span>
+                                        <span class="comment"><a href="#"><i class="fa fa-comment-o"
+                                                    aria-hidden="true"></i> 50</a></span>
+
+                                        <h3><a href="#">प्रवासियों को बताया गया: फ्रांस में रहो या अपने देश लौट जाओ</a>
+                                        </h3>
+                                        <p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटर एडिपिसिंग एलिट। नंक nisl risus,
+                                            tristique diam id, blandit condimentum</p>
+
+                                        <a href="#" class="read-more hvr-bounce-to-right">और पढ़ें</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-bottom-content fadeInUp">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/4.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 जून, 2017</span>
+                                            <h4><a href="#">आईएसआईएस ने भयंकर लड़ाई और बमबारी की</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div id="tab5" class="tab-pane fade">
+                            <div class="tab-top-content">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddimg-right-none">
+                                        <a href="blog-single.html"><img src="images/tab/7.jpg" alt="sidebar image"></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 last-col">
+                                        <span class="date">james Bond </span><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 50</a> <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50</a></span>
+                                        <h3><a href="#">Migrants Told: Stay in France or go back to your country</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl risus, tristique diam id, blandit condimentum</p>
+                                        <a href="#" class="read-more hvr-bounce-to-right">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-bottom-content fadeInUp">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> June 28, 2017</span>
+                                            <h4><a href="#">SIS puts fierce fight & bombing</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/3.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> June 28, 2017</span>                                  
+                                          	<h4><a href="#">SIS puts fierce fight & bombing</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/2.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> June 28, 2017</span>
+
+                                            <h4><a href="#">SIS puts fierce fight & bombing</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 tab-area">
+                                        <div class="col-sm-12 col-xs-3 img-tab">
+                                            <a href="blog-single.html"><img src="images/tab/4.jpg" alt="News image"></a>
+                                        </div>
+                                        <div class="col-sm-12 col-xs-9 img-content">
+                                            <span class="date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> June 28, 2017</span>                       <h4><a href="#">SIS puts fierce fight & bombing</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                    <!-- Trending news  here-->
+
+                    <div class="trending-news separator-large">
+                        <div class="row">
+                            <div class="view-area">
+                                <div class="col-sm-8">
+                                    <h3 class="title-bg">ट्रेंडिंग खबरें</h3>
+                                </div>
+                                <div class="col-sm-4 text-right">
+                                    <a href="#">और देखें <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="list-col">
+                                    <a href="blog-single.html"> <img src="images/Trending/1.jpg" alt=""
+                                            title="Trending image" /></a>
+                                    <div class="dsc">
+                                        <span class="date"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28
+                                            नवम्बर, 2017 </span>
+                                        <span class="comment"><a href="#"><i class="fa fa-comment-o"
+                                                    aria-hidden="true"></i> 50</a></span>
+
+                                        <h3><a href="blog-single.html">दो असफल इडाहो गांजा तस्करों ने घबराकर खुद ही 911
+                                                पर कॉल किया</a></h3>
+                                        <p>यह एक नमूना पैराग्राफ है जो केवल डिज़ाइन दिखाने के लिए लिखा गया है। इसमें असली
+                                            सामग्री नहीं है, बल्कि लेआउट जाँचने के लिए उपयोग किया जाता है।</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <ul class="news-post px-0 px-md-3">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <a href="blog-single.html"> <img src="images/Trending/2.jpg"
+                                                                    alt="" title="Trending image"></a>
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="blog-single.html">सस्पेंडिसे नॉन मेटस
+                                                                    कॉन्सेक्टेटर नंक</a></h4>
+                                                            <span class="date"><i class="fa fa-calendar-check-o"
+                                                                    aria-hidden="true"></i> 28 जून, 2017</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <a href="blog-single.html"> <img src="images/Trending/3.jpg"
+                                                                    alt="" title="Trending image"></a>
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="blog-single.html">डुओ स्क्रिप्टा एन द
+                                                                    प्रीयरिमॉड</a></h4>
+                                                            <span class="date"><i class="fa fa-calendar-check-o"
+                                                                    aria-hidden="true"></i> 28 जून, 2017</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <a href="blog-single.html"> <img src="images/Trending/4.jpg"
+                                                                    alt="" title="Trending image"></a>
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="blog-single.html">आतंकवाद की चिंताओं से यूके
+                                                                    पर्यटक प्रभावित</a></h4>
+                                                            <span class="date"><i class="fa fa-calendar-check-o"
+                                                                    aria-hidden="true"></i> 28 जून, 2017</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <a href="blog-single.html"> <img src="images/Trending/5.jpg"
+                                                                    alt="" title="Trending image"></a>
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="blog-single.html">रॉयल किंग की वापसी की जीत की
+                                                                    रैंकिंग</a></h4>
+                                                            <span class="date"><i class="fa fa-calendar-check-o"
+                                                                    aria-hidden="true"></i> 28 जून, 2017</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--Start what’s hot now -->
+
+
+
+                    <div class="hot-news">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="view-area">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h3 class="title-bg">अपडेट न्यूज़</h3>
+                                        </div>
+                                        <div class="col-sm-4 text-right">
+                                            <a href="#">और देखें <i class="fa fa-angle-double-right"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Featured News -->
+                                <div class="featured">
+                                    <div class="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="images/hot-news/1.jpg" alt="मुख्य खबर" title="मुख्य खबर" />
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <a href="category-sports.html" class="cat-link">खेल</a>
+                                        <span class="date">
+                                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 18 सितम्बर, 2025
+                                        </span>
+                                        <h4><a href="#">महिला रेसर ने बीच इवेंट में कराया हेयरकट</a></h4>
+                                    </div>
+                                </div>
+
+                                <!-- News List -->
+                                <ul class="news-post news-feature-mb">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4">
+                                                <a href="blog-single.html"><img src="images/hot-news/3.jpg"
+                                                        alt="समाचार" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 content">
+                                                <h4><a href="#">चुनाव प्रचार में ईमेल विवाद गरमाया</a></h4>
+                                                <span class="author"><a href="#"><i class="fa fa-user-o"></i>
+                                                        संवाददाता</a></span>
+                                                <span class="date"><i class="fa fa-calendar-check-o"></i> 15 सितम्बर,
+                                                    2025</span>
+                                                <span class="comment"><a href="#"><i class="fa fa-comment-o"></i>
+                                                        120</a></span>
+                                                <p>चुनावी माहौल के बीच ईमेल विवाद फिर चर्चा में है। विशेषज्ञों का मानना
+                                                    है कि यह आगामी रणनीति को प्रभावित कर सकता है।</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4">
+                                                <a href="blog-single.html"><img src="images/hot-news/2.jpg"
+                                                        alt="समाचार" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 content">
+                                                <h4><a href="#">स्टार खिलाड़ी ने फैसले पर जताई नाराज़गी</a></h4>
+                                                <span class="date"><i class="fa fa-calendar-check-o"></i> 12 सितम्बर,
+                                                    2025</span>
+                                                <span class="comment"><a href="#"><i class="fa fa-comment-o"></i>
+                                                        85</a></span>
+                                                <p>टीम मैनेजमेंट के फैसले पर स्टार खिलाड़ी ने नाराज़गी जताई है।
+                                                    प्रशंसकों के बीच इस पर मिली-जुली प्रतिक्रिया देखने को मिल रही है।
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-4">
+                                                <a href="blog-single.html"><img src="images/hot-news/4.jpg"
+                                                        alt="समाचार" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-8 content">
+                                                <h4><a href="#">आर्थिक संकट से उबरने की राह मुश्किल</a></h4>
+                                                <span class="author"><a href="#"><i class="fa fa-user-o"></i> विशेष
+                                                        संवाददाता</a></span>
+                                                <span class="date"><i class="fa fa-calendar-check-o"></i> 10 सितम्बर,
+                                                    2025</span>
+                                                <span class="comment"><a href="#"><i class="fa fa-comment-o"></i>
+                                                        65</a></span>
+                                                <p>स्थानीय निवासियों का कहना है कि हालात अभी भी सुधरने में समय लगेगा।
+                                                    सरकार ने राहत पैकेज का ऐलान किया है।</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- End what’s hot now -->
+                </div>
+                <!--Sidebar Start Here -->
+
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-left-none sidebar-latest">
+
+                    <!-- सोशल मीडिया लाइक बॉक्स -->
+                    <div class="like-box">
+                        <ul class="ps-0">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i> </a>
+                                <span><br />फेसबुक समाचार</span>
+                            </li>
+                            <li>
+                                <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        <span>3,50,580 <br />फॉलोअर्स</span> -->
+                                <a href="https://www.youtube.com/channel/CHANNEL_ID" target="_blank">
+                                    <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                                </a>
+                                <span> <br />यूट्यूब समाचार </span>
+
+                            </li>
+
+
+                            <li class="last">
+                                <a href="#"><i class="fa fa-rss" aria-hidden="true"></i> </a>
+                                <span>1,20,450 <br />सब्सक्राइबर्स</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- विज्ञापन -->
+                    <div class="add-section">
+                        <h3 class="title-bg">विज्ञापन</h3>
+                        <!-- <img src="images/add/2.png" alt="विज्ञापन"> -->
+                         <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop" class="card-img-top" alt="Breaking News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">Breaking News</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=250&fit=crop" class="card-img-top" alt="World News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">World News</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?w=400&h=250&fit=crop" class="card-img-top" alt="Technology News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">Technology</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop" class="card-img-top" alt="Business News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">Business</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop" class="card-img-top" alt="Breaking News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">Breaking News</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card news-card">
+                                    <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=250&fit=crop" class="card-img-top" alt="World News">
+                                    <div class="news-overlay">
+                                        <h5 class="news-title">World News</h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <!-- न्यूज़लेटर -->
+                    <div class="newsletter-info">
+                        <form>
+                            <fieldset>
+                                <div class="form-group">
+                                    <h4>न्यूज़लेटर सब्सक्राइब करें</h4>
+                                    <div class="newsletter">
+                                        <input class="form-control" placeholder="अपना ईमेल डालें..." type="text">
+                                        <button class="btn-send" type="submit">सब्सक्राइब</button>
+                                        <p>ताज़ा खबरें सीधे अपने इनबॉक्स में पाएँ</p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <!-- पॉपुलर पोस्ट -->
+                    <div class="sidebar popular">
+    <h3 class="title-bg">फ़ैशन</h3>
+    <ul>
+      <li>
+        <a href="category.html" class="category-btn hvr-bounce-to-right">बिज़नेस</a>
+        <div class="post-image"><img src="images/sidebar/1.jpg" alt="समाचार"></div>
+        <div class="content">
+          <h4>
+            <a href="#">विवादित प्रदर्शनी पर मचा हंगामा</a>
+          </h4>
+          <span class="date"> 
+            <i class="fa fa-calendar-check-o"></i> 17 सितम्बर, 2025
+          </span> 
+          <span class="comment">
+            <a href="#"><i class="fa fa-comment-o"></i> 120</a>
+          </span>
+        </div>
+      </li>
+    </ul> 
+  </div> 
+
+  
+
+                    <!-- संबंधित लोकप्रिय समाचार -->
+                    <div class="hot-news popular-related">
+                        <ul class="news-post">
+                            <li>
+                                <div class="row">
+                                    <div class="col-lg-12 content">
+                                        <div class="item-post">
+                                            <div class="row text-center-of-img">
+                                                <div class="col-lg-4 paddimg-right-none">
+                                                    <img class="img-w-100" src="images/popular/1.jpg" alt="समाचार">
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <h4><a href="#">अमेरिका ने चुनाव की तैयारी तेज़ की</a></h4>
+                                                    <span class="date"><i class="fa fa-calendar-check-o"></i> 14
+                                                        सितम्बर, 2025</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-lg-12 content">
+                                        <div class="item-post">
+                                            <div class="row text-center-of-img">
+                                                <div class="col-lg-4 paddimg-right-none">
+                                                    <img class="img-w-100" src="images/popular/2.jpg" alt="समाचार">
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <h4><a href="#">शेयर मार्केट में भारी उतार-चढ़ाव</a></h4>
+                                                    <span class="date"><i class="fa fa-calendar-check-o"></i> 12
+                                                        सितम्बर, 2025</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-lg-12 content">
+                                        <div class="item-post">
+                                            <div class="row text-center-of-img">
+                                                <div class="col-lg-4 paddimg-right-none">
+                                                    <img class="img-w-100" src="images/popular/3.jpg" alt="समाचार">
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <h4><a href="#">खेल जगत में नई उपलब्धि</a></h4>
+                                                    <span class="date"><i class="fa fa-calendar-check-o"></i> 10
+                                                        सितम्बर, 2025</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row text-center-of-img">
+                                    <div class="col-lg-12 content">
+                                        <div class="item-post">
+                                            <div class="row">
+                                                <div class="col-lg-4 paddimg-right-none">
+                                                    <img class="img-w-100" src="images/popular/4.jpg" alt="समाचार">
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <h4><a href="#">स्थानीय चुनाव में नई हलचल</a></h4>
+                                                    <span class="date"><i class="fa fa-calendar-check-o"></i> 08
+                                                        सितम्बर, 2025</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- हालिया टिप्पणियाँ -->
+                    <div class="recent-comments separator-large">
+                        <div id="comments-Carousel" class="carousel carousel-comments slide" data-ride="carousel">
+                            <div class="next-prev-top">
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <div class="view-area">
+                                            <h3 class="title-bg">हाल की टिप्पणियाँ</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 next-prev">
+                                        <a class="left news-control" href="#comments-Carousel" data-slide="prev">
+                                            <span class="news-arrow-left"><i class="fa fa-angle-left"></i></span>
+                                        </a>
+                                        <a class="right news-control" href="#comments-Carousel" data-slide="next">
+                                            <span class="news-arrow-right"><i class="fa fa-angle-right"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="dsc">
+                                        <p>यह पोर्टल मेरे लिए बहुत मददगार है, खबरें समय पर मिल जाती हैं।</p>
+                                        <span>- अजय वर्मा</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="dsc">
+                                        <p>यहाँ की खबरें काफी विश्वसनीय और रोचक लगती हैं।</p>
+                                        <span>- रिया सिंह</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- विज्ञापन -->
+                    <div class="add-section add-section2">
+                        <img src="images/add/3.jpg" alt="विज्ञापन">
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Fetuered videos Start Here -->
+    <div class="fetuered-videos">
+        <div class="container">
+            <div class="row">
+                <div class="view-area">
+                    <div class="col-sm-12">
+                        <h3 class="title-bg">वीडियो न्यूज़</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="featured-videos-section" class="owl-carousel">
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/1.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">स्मार्ट पैक्स पार्किंग सेंसर तकनीक</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/2.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">महिला ने पाँच साल की गुलामी सही</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/3.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">सुबह दौड़ने के स्वास्थ्य लाभ</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/4.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">स्मार्ट पैक्स पार्किंग सेंसर तकनीक</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/5.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">स्मार्ट पैक्स पार्किंग सेंसर तकनीक</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-videos">
+                        <div class="images">
+                            <a href="#"><img src="images/fetuered/2.jpg" alt=""></a>
+                            <div class="overley">
+                                <div class="videos-icon">
+                                    <a class="popup-videos" href="http://www.youtube.com/watch?v=Cdajfy4voyY">
+                                        <img src="images/fetuered/video-icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos-text">
+                            <h3><a href="#">स्मार्ट पैक्स पार्किंग सेंसर तकनीक</a></h3>
+                            <span class="date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                            </span>
+                            <span class="comment"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fetuered videos End Here -->
+
+    <!-- Hot News Start Here -->
+    <div class="hot-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div id="news-Carousel" class="carousel carousel-news slide" data-ride="carousel">
+                                <!-- Wrapper for slides -->
+                                <!-- Left and right controls -->
+                                <div class="next-prev-top">
+                                    <div class="row">
+                                        <div class="col-sm-9 col-xs-9">
+                                            <div class="view-area">
+                                                <!-- <h3 class="title-bg">स्वास्थ्य और जीवनशैली</h3> --><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 next-prev col-xs-3">
+                                            <a class="left news-control" href="#news-Carousel" data-slide="prev">
+                                                <span class="news-arrow-left"><i class="fa fa-angle-left"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                            <a class="right news-control" href="#news-Carousel" data-slide="next">
+                                                <span class="news-arrow-right"><i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="#"><img src="images/news-slider-image/1.jpg" alt="समाचार छवि"
+                                                title="समाचार छवि" /></a>
+                                        <div class="dsc">
+                                            <span class="date">
+                                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 नवम्बर, 2017
+                                            </span>
+                                            <span class="comment">
+                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> ५०</a>
+                                            </span>
+                                            <h4><a href="blog-single.html">स्वास्थ्य से जुड़े नए शोध और जीवनशैली की
+                                                    चुनौतियाँ</a></h4>
+                                            <p>यह डेमो टेक्स्ट केवल लेआउट और डिज़ाइन दिखाने के लिए उपयोग किया गया है।
+                                                इसमें वास्तविक समाचार नहीं है।</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <a href="#"><img src="images/news-slider-image/3.jpg" alt="समाचार छवि"
+                                                title="समाचार छवि" /></a>
+                                        <div class="dsc">
+                                            <span class="date">
+                                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 नवम्बर, 2017
+                                            </span>
+                                            <span class="comment">
+                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> ५०</a>
+                                            </span>
+                                            <h4><a href="blog-single.html">फिटनेस और पोषण पर नया दृष्टिकोण</a></h4>
+                                            <p>यह पैराग्राफ केवल वेबसाइट प्रेज़ेंटेशन के लिए लिखा गया है।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Politics Section -->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div id="news-Carousel2" class="carousel carousel-news slide" data-ride="carousel">
+                                <!-- Left and right controls -->
+                                <div class="next-prev-top">
+                                    <div class="row">
+                                        <div class="col-sm-9 col-xs-9">
+                                            <div class="view-area">
+                                                <!-- <h3 class="title-bg">राजनीति</h3> -->
+                                                 <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-3 col-xs-3 next-prev">
+                                            <a class="left news-control" href="#news-Carousel2" data-slide="prev">
+                                                <span class="news-arrow-left"><i class="fa fa-angle-left"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                            <a class="right news-control" href="#news-Carousel2" data-slide="next">
+                                                <span class="news-arrow-right"><i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="#"><img src="images/news-slider-image/2.jpg" alt="समाचार छवि"
+                                                title="समाचार छवि" /></a>
+                                        <div class="dsc">
+                                            <span class="date">
+                                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 नवम्बर, 2017
+                                            </span>
+                                            <span class="comment">
+                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> ५०</a>
+                                            </span>
+                                            <h4><a href="blog-single.html">टीवी पर दिव्यांगों की बेहतर प्रतिनिधित्व की
+                                                    माँग</a></h4>
+                                            <p>यह केवल डेमो टेक्स्ट है। वास्तविक समाचार यहाँ जोड़े जाएंगे।</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img src="images/news-slider-image/4.jpg" alt="समाचार छवि"
+                                                title="समाचार छवि" /></a>
+                                        <div class="dsc">
+                                            <span class="date">
+                                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 नवम्बर, 2017
+                                            </span>
+                                            <span class="comment">
+                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> ५०</a>
+                                            </span>
+                                            <h4><a href="blog-single.html">सड़क पर साइकिल चालकों के लिए नई सुरक्षा
+                                                    बहस</a></h4>
+                                            <p>यह टेक्स्ट साइट के डिज़ाइन और रूपरेखा दिखाने के लिए है।</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img src="images/news-slider-image/2.jpg" alt="समाचार छवि"
+                                                title="समाचार छवि" /></a>
+                                        <div class="dsc">
+                                            <span class="date">
+                                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                28 नवम्बर, 2017
+                                            </span>
+                                            <span class="comment">
+                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> ५०</a>
+                                            </span>
+                                            <h4><a href="blog-single.html">नई शिक्षा नीति पर राजनीतिक बहस</a></h4>
+                                            <p>यह नमूना पैराग्राफ केवल प्रदर्शन के लिए है।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Around the world Section -->
+                    <!-- <div class="view-area separator-large3">
+    <div class="row">
+        <div class="col-sm-8"> 
+            <h3 class="title-bg">दुनिया भर की ख़बरें</h3>
+        </div>
+        <div class="col-sm-4 text-right">
+            <a href="#">और देखें <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+                   <ul class="news-post news-post2 around-news">
+    <li>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content">
+                <div class="item-post">
+                    <div class="blog-image">
+                        <a href="blog-single.html"><img src="images/world/5.jpg" alt="समाचार छवि" title="समाचार छवि" /></a>
+                    </div>
+                    <div class="content">
+                        <span class="date">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                            28 नवम्बर, 2017 
+                        </span>
+                        <span class="comment">
+                            <a href="#"> <i class="fa fa-comment-o" aria-hidden="true"></i> ५०
+                            </a>
+                        </span>
+                        <h4><a href="blog-single.html">क्लिंटन अभियान को झटका, FBI करेगी ईमेल की जांच</a></h4>
+                        <p>यह एक डेमो पैराग्राफ है जो समाचार विवरण के लिए प्रयोग किया गया है। इसमें वास्तविक सामग्री नहीं है बल्कि डिज़ाइन और लेआउट दिखाने के लिए लिखा गया है।</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content">
+                <div class="item-post">
+                    <div class="blog-image">
+                        <a href="blog-single.html"><img src="images/world/6.jpg" alt="समाचार छवि" title="समाचार छवि" /></a>
+                    </div>
+                    <div class="content">
+                        <span class="date">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                            28 नवम्बर, 2017 
+                        </span>
+                        <span class="comment">
+                            <a href="#"> <i class="fa fa-comment-o" aria-hidden="true"></i> ५०
+                            </a>
+                        </span>
+                        <h4><a href="blog-single.html">क्लिंटन अभियान को झटका, FBI करेगी ईमेल की जांच</a></h4>
+                        <p>यह नमूना पाठ केवल वेबसाइट डिज़ाइन और प्रस्तुति दिखाने के लिए प्रयोग किया गया है।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul> -->
+
+                    <ul class="news-post news-post2 related">
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content">
+                                    <div class="item-post">
+                                        <div class="row text-center-of-img">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 paddimg-right-none">
+                                                <a href="blog-single.html"><img class="img-w-100" src="images/world/1.jpg"
+                                                        alt="समाचार छवि" title="समाचार छवि" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9">
+                                                <h4><a href="blog-single.html">फेरेट में पेलेंटेस्क ओडियो निसी
+                                                        युइसमोड</a></h4>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                    28 नवम्बर, 2017
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content">
+                                    <div class="item-post">
+                                        <div class="row text-center-of-img">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 paddimg-right-none">
+                                                <a href="blog-single.html"><img class="img-w-100" src="images/world/2.jpg"
+                                                        alt="समाचार छवि" title="समाचार छवि" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9">
+                                                <h4><a href="blog-single.html">रूसी चुनाव की तैयारी</a></h4>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                    28 जून, 2017
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content">
+                                    <div class="item-post">
+                                        <div class="row text-center-of-img">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 paddimg-right-none">
+                                                <a href="blog-single.html"><img class="img-w-100" src="images/world/3.jpg"
+                                                        alt="समाचार छवि" title="समाचार छवि" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9">
+                                                <h4><a href="blog-single.html">एरंट एएक्वे निउस नो न्यूम्स इलेक्ट्रम</a>
+                                                </h4>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                    28 नवम्बर, 2017
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content">
+                                    <div class="item-post">
+                                        <div class="row text-center-of-img">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 paddimg-right-none">
+                                                <a href="blog-single.html"><img class="img-w-100" src="images/world/4.jpg"
+                                                        alt="समाचार छवि" title="समाचार छवि" /></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9">
+                                                <h4><a href="blog-single.html">यूट्यूब ने Twitch को १ बिलियन डॉलर में
+                                                        खरीदा</a></h4>
+                                                <span class="date">
+                                                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                                    28 जून, 2017
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 paddimg-left-none">
+                    <h3 class="title-bg featured-title">व्यापार</h3>
+                    <div class="sidebar">
+                        <ul>
+                            <li>
+                                <!-- <a href="#" class="category-btn hvr-bounce-to-right">व्यापार</a> -->
+                                <div class="post-image"><a href="blog-single.html"><img src="images/sidebar/1.jpg"
+                                            alt="समाचार छवि" /></a></div>
+                                <div class="content">
+                                    <h4><a href="blog-single.html">यह प्रदर्शनी जिसे बैंकसी नहीं चाहते कि आप देखें</a>
+                                    </h4>
+                                    <span class="date">
+                                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                                    </span>
+                                    <span class="comment">
+                                        <a href="#">
+                                            <i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                        </a>
+                                    </span>
+                                </div>
+                            </li>
+                            <!-- <h3 class="title-bg featured-title">स्वास्थ्य</h3> -->
+                            <!-- <li>
+                                <a href="category-health.html" class="category-btn hvr-bounce-to-right">स्वास्थ्य</a>
+                                <div class="post-image"><a href="blog-single.html"><img src="images/sidebar/2.jpg"
+                                            alt="समाचार छवि" /></a></div>
+                                <div class="content">
+                                    <h4><a href="#">यह प्रदर्शनी जिसे बैंकसी नहीं चाहते कि आप देखें</a></h4>
+                                    <span class="date">
+                                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                                    </span>
+                                    <span class="comment">
+                                        <a href="#">
+                                            <i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                        </a>
+                                    </span>
+                                </div>
+                            </li> -->
+                            <!-- <h3 class="title-bg featured-title">फ़ैशन</h3> -->
+                            <!-- <li>
+                                <a href="#" class="category-btn hvr-bounce-to-right">फ़ैशन</a>
+                                <div class="post-image"><a href="blog-single.html"><img src="images/sidebar/3.jpg"
+                                            alt="समाचार छवि" /></a></div>
+                                <div class="content">
+                                    <h4><a href="#">यह प्रदर्शनी जिसे बैंकसी नहीं चाहते कि आप देखें</a></h4>
+                                    <span class="date">
+                                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 28 नवम्बर, 2017
+                                    </span>
+                                    <span class="comment">
+                                        <a href="#">
+                                            <i class="fa fa-comment-o" aria-hidden="true"></i> 50
+                                        </a>
+                                    </span>
+                                </div>
+                            </li> -->
+                        </ul>
+                        <div class="categories-home separator-large3">
+                            <h3 class="title-bg">श्रेणियाँ</h3>
+                            <ul>
+                                <li><a href="category.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        व्यापार <span>45</span></a></li>
+                                <li><a href="category-world.html"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        विश्व <span>70</span></a></li>
+                                <li><a href="category-fashion.html"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        फ़ैशन <span>45</span></a></li>
+                                <li><a href="category-politics.html"><i class="fa fa-angle-right"
+                                            aria-hidden="true"></i> राजनीति <span>55</span></a></li>
+                                <li><a href="category-sports.html"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        खेल <span>50</span></a></li>
+                                <li><a href="category-health.html"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        स्वास्थ्य <span>65</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- All News Section end Here -->
+    <!-- Footer Area Section Start Here -->
+    <!-- <div class="add-section separator-large2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="images/footer-top.png" alt="footer">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <footer>
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer About Section Start Here -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer footer-one">
+                            <h3>हमारे बारे में</h3>
+                            <!-- <div class="footer-logo"><img src="images/footer-logo.png" alt="footer-logo"></div> -->
+                             <div class="row align-items-center py-3 justify-content-center justify-content-md-start">
+                        <div class="col-lg-12 col-md-4 col-6">
+                            <div class="logo">
+                                <!-- <h1>BCC<span class="text-danger">24</span>NEWS</h1> -->
+                                <h1 class="text-white-of-foot-v24" >VICHAR<span class="text-danger"> MEDIA</span>24</h1>
+                            </div>
+                        </div>
+                        </div>
+                            <p class="my-0-To-all-foot" ><b>H.N. 117/L/320a,</b></p>
+                            <p class="my-0-To-all-foot">P Block,  Kakadeo,</p>
+                            <p class="my-0-To-all-foot">Navin Nagar-208025</p>
+
+                            <p>हम सोशल मीडिया पर भी हैं, हमसे जुड़ें:</p>
+                            <div class="footer-social-media-area">
+                                <nav>
+                                    <ul>
+                                        <!-- Facebook Icon Here -->
+                                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <!-- Google Icon Here -->
+                                        <li><a href="#"><i class="fa-brands fa-google-plus" aria-hidden="true"></i></a></li>
+                                        <!-- Twitter Icon Here -->
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <!-- Vimeo Icon Here -->
+                                        <li><a href="#"><i class="fa-brands fa-vimeo" aria-hidden="true"></i></a></li>
+                                        <!-- Pinterest Icon Here -->
+                                        <li><a href="#"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer About Section End Here -->
+
+                    <!-- Footer Popular Post Section Start Here -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer footer-two">
+                            <h3>लोकप्रिय पोस्ट</h3>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4">
+                                            <a href="blog-single.html"><img src="images/post-images/post-1.jpg"
+                                                    alt="post photo"></a>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
+                                            <p><a href="blog-single.html">अमेरिका को रूसी चुनाव के लिए तैयार रहना
+                                                    चाहिए</a></p>
+                                            <span><i class="fa fa-calendar-check-o" aria-hidden="true"> </i> जून 28,
+                                                2017</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4">
+                                            <a href="blog-single.html"><img src="images/post-images/post-2.jpg"
+                                                    alt="post photo"></a>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
+                                            <p><a href="blog-single.html">अमेरिका को रूसी चुनाव के लिए तैयार रहना
+                                                    चाहिए</a></p>
+                                            <span><i class="fa fa-calendar-check-o" aria-hidden="true"> </i> जून 28,
+                                                2017</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4">
+                                            <a href="blog-single.html"><img src="images/post-images/post-3.jpg"
+                                                    alt="post photo"></a>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
+                                            <p><a href="blog-single.html">अमेरिका को रूसी चुनाव के लिए तैयार रहना
+                                                    चाहिए</a></p>
+                                            <span><i class="fa fa-calendar-check-o" aria-hidden="true"> </i> जून 28,
+                                                2017</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Footer Popular Post Section End Here -->
+
+                    <!-- Footer From Flickr Section Start Here -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer footer-three">
+                            <h3>फ्लिकर से</h3>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/flicker/1.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/2.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/3.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/4.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/5.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/6.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/7.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/8.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/9.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/10.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/11.png" alt="flicker photo"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/flicker/12.png" alt="flicker photo"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer From Flickr Section End Here -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright Area Start Here -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="footer-bottom">
+<<<<<<< HEAD
+                            <p> &copy; कॉपीराइट Cyber Instant. सभी अधिकार सुरक्षित।</p>
+=======
+                            <p> &copy; 2025 Cyber Instant. All rights reserved</p>
+>>>>>>> 06ecf83 (update header)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright Area End Here -->
+    </footer>
+
+
+    <!-- Start scrollUp  -->
+    <div id="return-to-top">
+        <span>Top</span>
+    </div>
+    <!-- End scrollUp  -->
+
+    <!-- Footer Area Section End Here -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        // Auto-sliding trending news
+        let currentIndex = 0;
+        let autoSlide = true;
+        const trendingItems = document.querySelectorAll('.trending-item');
+        
+        function showTrendingItem(index) {
+            trendingItems.forEach(item => item.classList.remove('active'));
+            trendingItems[index].classList.add('active');
+        }
+        
+        function showNextTrending() {
+            if (!autoSlide) return;
+            currentIndex = (currentIndex + 1) % trendingItems.length;
+            showTrendingItem(currentIndex);
+        }
+        
+        function nextTrending() {
+            autoSlide = false;
+            currentIndex = (currentIndex + 1) % trendingItems.length;
+            showTrendingItem(currentIndex);
+            // Resume auto-slide after 10 seconds
+            setTimeout(() => { autoSlide = true; }, 10000);
+        }
+        
+        function previousTrending() {
+            autoSlide = false;
+            currentIndex = (currentIndex - 1 + trendingItems.length) % trendingItems.length;
+            showTrendingItem(currentIndex);
+            // Resume auto-slide after 10 seconds
+            setTimeout(() => { autoSlide = true; }, 10000);
+        }
+        
+        // Change trending item every 4 seconds
+        setInterval(showNextTrending, 4000);
+    </script>
+
+    <!-- all js here -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery latest version -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery-ui js -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script> 
+    <!-- meanmenu js -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- magnific-popup js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+
+    <!-- jquery.counterup js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- jquery light box -->
+    <script src="js/lightbox.min.js"></script>
+    <!-- Nivo slider js -->
+    <script src="inc/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="inc/custom-slider/home.js" type="text/javascript"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from rstheme.com/products/html/news24/news-magazine/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Sep 2025 02:41:33 GMT -->
+
+</html>
